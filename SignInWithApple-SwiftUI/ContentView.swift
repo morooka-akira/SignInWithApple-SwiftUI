@@ -10,7 +10,10 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, World!")
+        VStack {
+            SignInWithAppleButton()
+                .frame(width: 200.0, height: 60)
+        }
     }
 }
 
